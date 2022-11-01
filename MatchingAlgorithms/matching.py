@@ -305,6 +305,13 @@ class Matching():
         self.result += 1234
         return [self.result, self.pairs]
 
+
+    @_matching_decorator
+    def match_dynamic_programming(self):
+        # TODO
+        # https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+        pass
+
 # class Elements(pd.DataFrame):
 #     def read_json(self):
 #         super().read_json()
